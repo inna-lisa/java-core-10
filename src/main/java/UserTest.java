@@ -13,7 +13,7 @@ public class UserTest {
 			String string;
 			String[] usersParameters = new String[2];
 
-			string = file.readLine();
+			file.readLine();
 			string = file.readLine();
 
 			while (string != null){
