@@ -19,7 +19,6 @@ public class PhoneNumberTest {
 				numbers.add(line);
 				line = file.readLine();
 			}
-			System.out.println("numbers = " + numbers);
 		}
 		catch (IOException ex){
 			System.out.println( ex.getMessage());
